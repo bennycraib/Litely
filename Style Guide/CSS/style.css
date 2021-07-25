@@ -55,7 +55,48 @@ section {
   text-align: center;
 }
 
-.typography {
+.specimen-typo {
+  display: flex;
+  flex-factor: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+  text-align: center;
+  margin-left: 15rem;
+}
+
+/* TYPOGRAPHY */
+
+.h1 {
+  font-size: 4.209rem;
+}
+
+.h2 {
+  font-size: 3.157rem;
+}
+
+.h3 {
+  font-size: 2.369rem;
+}
+
+.h4 {
+  font-size: 1.777rem;
+}
+
+.h5 {
+  font-size: 1.333rem;
+}
+
+.body {
+  font-size: 1rem;
+}
+
+.body-small {
+  font-size: 0.75rem;
+}
+
+.body-xs {
+  font-size: 0.563rem;
 }
 
 button {
@@ -135,6 +176,11 @@ button:hover,
 .btn-disabled {
   background-color: #cccccc;
   color: #8a8a8a;
+}
+
+.drop-shadow-box {
+  color: #efefef;
+  background-color: 707070;
 }
 
 @media only screen and (max-width: 720px) {

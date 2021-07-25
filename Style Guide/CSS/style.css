@@ -41,6 +41,23 @@ section {
   margin-right: 0.5rem;
 }
 
+.header > * {
+  display: flex;
+  justify-content: center;
+  grid-column: span 12;
+  margin: 2rem 0;
+  font-size: 3.157rem;
+}
+
+.logo-image {
+  width: 50vw;
+}
+
+.cards-image {
+  width: 300px;
+  margin: 1rem 3rem;
+}
+
 .specimens {
   grid-column: span 9;
   border-top: 2px solid #424242;

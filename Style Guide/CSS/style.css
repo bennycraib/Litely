@@ -193,6 +193,8 @@ button:hover,
 .btn-disabled {
   background-color: #cccccc;
   color: #8a8a8a;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .drop-shadow-box {
